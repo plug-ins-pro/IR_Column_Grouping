@@ -1,1 +1,57 @@
-#initial push
+{
+  "name": "IR Column Grouping",
+  "version": "23.1",
+  "description": "The Interactive Report Column Grouping is a useful plugin that enhances the IR. The plugin ensures that the column groups are displayed above the table and remain fixed. These groups work even when removing or adding in control breaks.  ",
+  "keywords": [
+    "IR",
+    "Interactive Report",
+    "column",
+    "header",
+    "groups"
+  ],
+  "homepage": "https://www.plug-ins-pro.com/",
+  "bugs": {
+    "url": "https://github.com/plug-ins-pro/ir_column_grouping/issues",
+    "email": "support@plug-ins-pro.com"
+  },
+  "license": "Commercial",
+  "commercial": "Yes",
+  "commercially_supported": "Yes",
+  "author": {
+    "name": "United Codes",
+    "email": "info@plug-ins-pro.com",
+    "url": "https://www.united-codes.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plug-ins-pro/ir_column_grouping"
+  },
+  "oracle": {
+    "versions": [
+      "12.1.0.1",
+      "12.2.0.1",
+      "18.0.0.0",
+      "19.0.0.0",
+      "21.0.0.0"
+    ],
+    "apex": {
+      "versions": [
+        "19.1",
+        "19.2",
+        "20.1",
+        "20.2",
+        "21.1",
+        "21.2",
+        "22.1",
+        "22.2",
+        "23.1"
+      ],
+      "plugin": {
+        "internalName": "UNITEDCODES_IR_COLUMN_GROUPING",
+        "type": "dynamic action",
+        "demo": "https://www.plug-ins-pro.com/ords/pluginspro_web/r/ir_column_grouping",
+        "previewImage": "https://apex192.apexrnd.com/ords/pip_dev/r/174/files/static/v37/home-promo.gif"
+      }
+    }
+  }
+}
