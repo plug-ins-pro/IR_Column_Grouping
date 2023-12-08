@@ -1,7 +1,7 @@
 {
-  "name": "IR Column Grouping",
+  "name": "UC - IR Column Grouping",
   "version": "23.1",
-  "description": "The Interactive Report Column Grouping is a useful plugin that enhances the IR. The plugin ensures that the column groups are displayed above the table and remain fixed. These groups work even when removing or adding in control breaks.  ",
+  "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The Interactive Report Column Grouping is a useful plug-in that enhances the IR. The plug-in ensures that the column groups are displayed above the table and remain fixed. These groups work even when removing or adding in control breaks.  ",
   "keywords": [
     "IR",
     "Interactive Report",
@@ -12,16 +12,17 @@
   "homepage": "https://www.plug-ins-pro.com/",
   "bugs": {
     "url": "https://github.com/plug-ins-pro/ir_column_grouping/issues",
-    "email": "support@plug-ins-pro.com"
+    "email": "info@plug-ins-pro.com"
   },
-  "license": "Commercial",
-  "commercial": "Yes",
+  "license": "MIT",
+  "commercial": "No",
   "commercially_supported": "Yes",
   "author": {
     "name": "United Codes",
     "email": "info@plug-ins-pro.com",
-    "url": "https://www.united-codes.com/"
-  },
+    "url": "https://www.plug-ins-pro.com/",
+    "twitter": "@Plug_ins_Pro"
+ },
   "repository": {
     "type": "git",
     "url": "https://github.com/plug-ins-pro/ir_column_grouping"
@@ -32,25 +33,25 @@
       "12.2.0.1",
       "18.0.0.0",
       "19.0.0.0",
-      "21.0.0.0"
-    ],
-    "apex": {
+      "21.0.0.0",
+      "23.0.0.0"
+   ],
+   "apex": {
       "versions": [
-        "19.1",
-        "19.2",
-        "20.1",
-        "20.2",
-        "21.1",
-        "21.2",
-        "22.1",
-        "22.2",
-        "23.1"
+         "19.2.0",
+         "20.1.0",
+         "20.2.0",
+         "21.1.0",
+         "21.2.0",
+         "22.1.0",
+         "23.1.0",
+         "23.2.0"
       ],
       "plugin": {
         "internalName": "UNITEDCODES_IR_COLUMN_GROUPING",
         "type": "dynamic action",
-        "demo": "https://www.plug-ins-pro.com/ords/pluginspro_web/r/ir_column_grouping",
-        "previewImage": "https://www.plug-ins-pro.com/ords/pluginspro_web/r/ir_column_grouping/files/static/v37/home-promo.gif"
+        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/pluginspro_free/",
+        "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_IR_COLUMN_GROUPING.gif"
       }
     }
   }
